@@ -18,7 +18,7 @@ class TestService
 
         if ($lock->acquire()) {
 
-            sleep(10);
+            sleep(20);
 
             return 'SERVICE_OUTPUT';
         }
